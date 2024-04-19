@@ -1,0 +1,1 @@
+![You can navigate between pages on the site, which is organized like a Far East restaurant menu, thanks to JavaScript.](image.png)
