@@ -1,0 +1,15 @@
+.total-money{
+  background: linear-gradient(180deg, #2ecc71, #1abc9c);
+  position: sticky;
+  top: 0;
+  text-align: center;
+  margin-top: 1rem;
+  padding: 0.8rem;
+}
+
+.total-money p {
+  font-size: 40px;
+  color: white;
+  font-weight: 700;
+  margin: 0;
+}
