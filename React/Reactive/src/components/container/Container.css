@@ -1,0 +1,26 @@
+/* Navbar styles */
+.container a {
+    margin-bottom: 0 !important;
+  }
+  
+  #navbarResponsive {
+    justify-content: right;
+  }
+  
+  .btn {
+    color: #ffffff !important;
+  }
+  
+  .nav-item a {
+    color: rgb(255, 255, 255) !important;
+    margin-right: 20px;
+  }
+  
+  #mainNav {
+    background-color: transparent !important;
+  }
+  
+  #mainNav.scrolled {
+    background-color: #355592 !important; /* Change to desired color */
+  }
+  

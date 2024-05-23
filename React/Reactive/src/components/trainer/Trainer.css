@@ -1,0 +1,81 @@
+#trainer{
+    height: 700px;
+    position: relative;
+    top: 200px;
+    background-color: #f1f8ff;
+  }
+  #trainer .card{
+    margin: 20px;
+    display: inline-block;
+    background-color: transparent !important;
+    border: none !important;
+  }
+  #trainer .card-title {
+    background-color: #355592;
+    text-align: center;
+    display: none;
+    color: white;
+    position: relative;
+    left: 80px;
+    top: -100px;
+    width: 150px;
+  }
+  
+  /* CSS to display the card title on hover */
+  #trainer .card:hover .card-title {
+    display: block;
+  }
+
+  .trainer-card {
+    position: relative !important;
+    z-index: 2 !important;
+  }
+  .first {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+  height: 107%;
+  width: 30%;
+  background-color: rgba(53, 85, 146, 1);
+  z-index: -1;
+  transition: width 0.3s ease;
+  }
+  .last {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    height: 30%;
+    width: 107%;
+    background-color: rgba(53, 85, 146, 1);
+    z-index: -1;
+    transition: height 0.3s ease;
+  }
+  
+   .card-img-top:hover ~ .first {
+    width: 54%;
+  }
+   .card-img-top:hover ~ .last {
+    height: 45%;
+  }
+  .card-img-top:hover ~ .pt-name {
+    opacity: 1;
+  }
+  .pt-name {
+    content: "";
+    position: absolute;
+    text-align: center;
+    clip-path: polygon(0 21%, 15% 21%, 15% 0%, 85% 0%, 85% 21%, 100% 21%, 100% 78%, 85% 78%, 85% 100%, 15% 100%, 15% 78%, 0 78%);
+    background-color: rgba(53, 85, 146, 1);
+    top: 70%;
+    left: 5%;
+    width: 90%;
+    height: 4rem;
+    z-index: 5;
+    opacity: 0;
+    transition: opacity 0.3s ease-in;
+    color: white;
+  }

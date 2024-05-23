@@ -1,0 +1,40 @@
+
+.bmi-calculator{
+    height: 400px;
+    position: relative; 
+    top: 400px;
+  }
+  .bmi-calculator .text-classes{
+    position: relative;
+    left: 0px;
+    margin-top: 0px;
+  }
+  .img-bmi{
+    width: 100%;
+    position: relative;
+  }
+  .calculator {
+    margin-top: 24px;
+  }
+  .arrow-up {
+    position: absolute;
+    left: 7%;
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 20px solid #fe9b01;
+    transition: 0.5s;
+  }
+
+  .bmi-calculater{
+    height: 400px;
+    position: relative; 
+    top: 200px;
+
+}
+.bmi-calculater .text-classes{
+    position: relative;
+    left: 0px;
+    margin-top: 0px;
+}

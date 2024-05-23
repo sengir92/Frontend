@@ -1,0 +1,58 @@
+#contact-us {
+    height: 700px;
+    position: relative;
+    top: 200px;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    font-size: 14px;
+    padding: 10px 12px;
+    background-color: #becbe3;
+  }
+  
+  .center {
+    text-align: center;
+  }
+  
+  .our-class-title {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .orange-line-title {
+    border: 2px solid orange;
+    width: 50px;
+    margin: 0 auto;
+  }
+  
+  .text-classes {
+    color: #333;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -15px;
+  }
+  
+  .col-md-6 {
+    width: 50%;
+    padding: 15px;
+  }
+  
+  .contacts {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .contact-info {
+    margin-bottom: 10px;
+  }
+  
