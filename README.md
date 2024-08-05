@@ -1,4 +1,4 @@
-Welcome to my repository containing all my frontend projects and assignments.
+Welcome to my repository containing all my Frontend Projects and assignments.
 
 This collection showcases my journey in learning and mastering frontend development. 
 
